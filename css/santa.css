@@ -1,0 +1,17 @@
+.santa{
+    display: inline-block;
+    position: relative;
+    margin-left: 800px;
+    margin-top: -100px;
+    animation-name: deer;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+    }
+    
+    @keyframes deer {
+            100% {
+            margin-left: 10px;
+            margin-top: -400px;
+                    }
+                }

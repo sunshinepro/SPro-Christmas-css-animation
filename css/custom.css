@@ -1,0 +1,8 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-template-rows: 220px 220px;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+   }

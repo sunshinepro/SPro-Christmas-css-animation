@@ -1,0 +1,79 @@
+.gift>.blue
+ {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    background-image: url(../img/gift\ blue.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 400px;
+    margin-top: -320px;
+    animation-name: goodBlue;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes goodBlue {
+    0% {opacity: 0;}
+    100% {
+    margin-left: 400px;
+    margin-top: -50px;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+            }
+        }
+.gift>.yellow
+ {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    background-image: url(../img/gift\ yellow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 0px;
+    margin-top: -300px;
+    animation-name: goodYellow;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes goodYellow {
+    0% {opacity: 0;}
+    100% {
+        margin-left: 0px;
+        margin-top: -40px;
+        width: 50px;
+        height: 50px;
+        opacity: 1;    
+        }
+    }
+.gift>.purple
+ {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    background-image: url(../img/gift\ purple.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 0px;
+    margin-top: -280px;
+    animation-name: good;
+    animation-delay: 0.8s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes good {
+    0% {opacity: 0;}
+    100% {
+       margin-left: 0px;
+        margin-top: -50px;
+        width: 50px;
+        height: 50px;
+        opacity: 1;
+        }
+     }
