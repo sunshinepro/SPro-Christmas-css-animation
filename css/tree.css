@@ -1,19 +1,17 @@
-.tree{
-grid-column: 2 / 3;
-grid-row: 2;
-background-image: url(../img/Tree\ sad.png);
-background-size: contain;
-background-repeat: no-repeat;
-animation-name: joy;
-animation-duration: 5s;
-animation-delay: 4s;
-animation-iteration-count: infinite;
- 
+.tree{ 
+    grid-column: 2 / 3; 
+    grid-row: 2; 
+    background-image: url(../img/Tree\ sad.png); 
+    background-size: contain; background-repeat: no-repeat; 
+    animation-name: joy; 
+    animation-duration: 5s; 
+    animation-fill-mode: forward;
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in;
+    
 }
 
 @keyframes joy {
-    from {background-image: url(../img/Tree\ sad.png);
-    }
-    to {background-image: url(../img/Tree\ joyful.png);
+        100% {background-image: url(../img/Tree\ joyful.png)
     }
 }
